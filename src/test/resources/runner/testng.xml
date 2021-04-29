@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MultiSysPortal">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener
+			class-name="com.multisysportal.listeners.CustomListeners" />
+	</listeners>
+
+	<test name="Login_BillingPortal">
+		<classes>
+			<class name="com.multisysportal.testcases.Login_BillingPortal" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="View_Dashboard">
+		<classes>
+			<class name="com.multisysportal.testcases.View_Dashboard" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="View_Reports_Daily">
+		<classes>
+			<class name="com.multisysportal.testcases.View_Reports_Daily" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="View_Reports_Monthly">
+		<classes>
+			<class name="com.multisysportal.testcases.View_Reports_Monthly" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="View_Reports_Yearly">
+		<classes>
+			<class name="com.multisysportal.testcases.View_Reports_Yearly" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="View_Reports_Custom">
+		<classes>
+			<class name="com.multisysportal.testcases.View_Reports_Custom" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Search_Reports">
+		<classes>
+			<class name="com.multisysportal.testcases.Search_Reports" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Download_Reports">
+		<classes>
+			<class name="com.multisysportal.testcases.Download_Reports" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="View_Map">
+		<classes>
+			<class name="com.multisysportal.testcases.View_Map" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Logout_LogoutOption">
+		<classes>
+			<class name="com.multisysportal.testcases.Logout_LogoutOption" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="ResetPassword_viaForgotPassword">
+		<classes>
+			<class
+				name="com.multisysportal.testcases.ResetPassword_viaForgotPassword" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,53 @@
+13:52:48,970 DEBUG devpinoyLogger:66 - Config File Loaded!
+13:52:48,974 DEBUG devpinoyLogger:80 - OR File Loaded!
+13:52:54,919 DEBUG devpinoyLogger:95 - Firefox launched!
+13:52:58,233 DEBUG devpinoyLogger:108 - Navigated to: https://biller-portal.multipay.ph/signin
+13:52:58,841 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_PH", UTF-8, parsed); will try to load it.
+13:52:58,842 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_PH.ftl"): Not found
+13:52:58,844 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:52:58,847 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:52:58,847 DEBUG cache:45 - Loading template for "Extent.ftl"("en_PH", UTF-8, parsed) from "jar:file:/Users/micadeguzman/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:53:00,131 DEBUG devpinoyLogger:201 - Test Case Execution Completed!
+13:53:00,134 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_PH", UTF-8, parsed); will try to load it.
+13:53:00,134 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_PH.ftl"): Not found
+13:53:00,135 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:53:00,135 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:53:00,136 DEBUG cache:45 - Loading template for "Extent.ftl"("en_PH", UTF-8, parsed) from "jar:file:/Users/micadeguzman/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:53:00,196 DEBUG devpinoyLogger:201 - Test Case Execution Completed!
+13:53:00,200 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_PH", UTF-8, parsed); will try to load it.
+13:53:00,201 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_PH.ftl"): Not found
+13:53:00,201 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:53:00,202 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:53:00,202 DEBUG cache:45 - Loading template for "Extent.ftl"("en_PH", UTF-8, parsed) from "jar:file:/Users/micadeguzman/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:53:00,260 DEBUG devpinoyLogger:201 - Test Case Execution Completed!
+13:53:00,317 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_PH", UTF-8, parsed); will try to load it.
+13:53:00,317 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_PH.ftl"): Not found
+13:53:00,317 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:53:00,317 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:53:00,318 DEBUG cache:45 - Loading template for "Extent.ftl"("en_PH", UTF-8, parsed) from "jar:file:/Users/micadeguzman/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:53:00,359 DEBUG devpinoyLogger:201 - Test Case Execution Completed!
+13:53:00,369 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_PH", UTF-8, parsed); will try to load it.
+13:53:00,369 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_PH.ftl"): Not found
+13:53:00,370 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:53:00,370 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:53:00,370 DEBUG cache:45 - Loading template for "Extent.ftl"("en_PH", UTF-8, parsed) from "jar:file:/Users/micadeguzman/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:53:00,405 DEBUG devpinoyLogger:201 - Test Case Execution Completed!
+13:53:00,415 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_PH", UTF-8, parsed); will try to load it.
+13:53:00,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_PH.ftl"): Not found
+13:53:00,416 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:53:00,416 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:53:00,416 DEBUG cache:45 - Loading template for "Extent.ftl"("en_PH", UTF-8, parsed) from "jar:file:/Users/micadeguzman/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:53:00,452 DEBUG devpinoyLogger:201 - Test Case Execution Completed!
+13:53:00,483 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_PH", UTF-8, parsed); will try to load it.
+13:53:00,484 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_PH.ftl"): Not found
+13:53:00,484 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:53:00,484 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:53:00,484 DEBUG cache:45 - Loading template for "Extent.ftl"("en_PH", UTF-8, parsed) from "jar:file:/Users/micadeguzman/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:53:00,514 DEBUG devpinoyLogger:201 - Test Case Execution Completed!
+13:53:00,522 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_PH", UTF-8, parsed); will try to load it.
+13:53:00,522 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_PH.ftl"): Not found
+13:53:00,523 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:53:00,523 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:53:00,523 DEBUG cache:45 - Loading template for "Extent.ftl"("en_PH", UTF-8, parsed) from "jar:file:/Users/micadeguzman/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:53:00,577 DEBUG devpinoyLogger:201 - Test Case Execution Completed!
+13:53:00,584 DEBUG devpinoyLogger:201 - Test Case Execution Completed!
