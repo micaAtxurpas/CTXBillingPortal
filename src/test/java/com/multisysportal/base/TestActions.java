@@ -1,5 +1,10 @@
-package com.multisysportal.base;
+	package com.multisysportal.base;
 
+
+import com.multisysportal.reports.CustomReports;
+import com.multisysportal.reports.DailyReports;
+import com.multisysportal.reports.MonthlyReports;
+import com.multisysportal.reports.YearlyReports;
 import com.multisysportal.utilities.ExcelApiTest;
 
 public class TestActions extends TestBase {
@@ -55,24 +60,33 @@ public class TestActions extends TestBase {
 	}
 
 	// View_Reports_Daily
-	public void clickReportsDaily() {
+	public DailyReports clickReportsDaily() {
 		click("menuReportsDaily_XPATH");
+		return new DailyReports();
 	}
-
+	
 	// View_Reports_Monthly
-	public void clickReportsMonthly() {
+	public MonthlyReports clickReportsMonthly() {
 		click("menuReportsMonthly_XPATH");
+		
+		return new MonthlyReports();
 	}
 
 	// View_Reports_Yearly
-	public void clickReportsYearly() {
+
+	public YearlyReports clickReportsYearly() {
 		click("menuReportsYearly_XPATH");
+		return new YearlyReports();
 	}
+	
 
 	// View_Reports_Custom
-	public void clickReportsCustom() {
+	public CustomReports clickReportsCustom() {
 		click("menuReportsCustom_XPATH");
+		return new CustomReports();
 	}
+	
+	
 
 	// Search_Reports
 	public void enterSearchReport() throws Exception {

@@ -6,12 +6,14 @@ import org.testng.annotations.Test;
 
 import com.multisysportal.base.TestActions;
 import com.multisysportal.base.TestBase;
+import com.multisysportal.reports.DailyReports;
+import com.multisysportal.reports.MonthlyReports;
 import com.multisysportal.utilities.TestUtil;
 
 public class View_Reports_Monthly extends TestBase {
 
 	@Test
-	public void view_Reports_Monthly() throws InterruptedException {
+	public void view_Reports_Monthly() throws Throwable {
 
 		// for excel run mode test suites
 		if (!TestUtil.isTestRunnable("view_Reports_Monthly", excel)) {
@@ -22,10 +24,11 @@ public class View_Reports_Monthly extends TestBase {
 		log.debug("Reports Page successsfully accessed!");
 		Reporter.log("Reports Page successsfully accessed!");
 
-		TestActions viewReportsMonthly = new TestActions();
-		viewReportsMonthly.clickReports();
-		Thread.sleep(2000);
-		viewReportsMonthly.clickReportsMonthly();
+		TestActions action = new TestActions();
+		MonthlyReports reports = action.clickReportsMonthly();
+		
+		reports.selectDate();
+	
 	}
 
 }

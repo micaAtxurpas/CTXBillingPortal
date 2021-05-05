@@ -27,6 +27,13 @@
 			<class name="com.multisysportal.testcases.View_Reports_Daily" />
 		</classes>
 	</test> <!-- Test -->
+	
+		<test name="Export_Daily_Report">
+		<classes>
+			<class name="com.multisysportal.testcases.Export_Daily_Report" />
+		</classes>
+	</test> <!-- Test -->
+	
 
 	<test name="View_Reports_Monthly">
 		<classes>
@@ -76,5 +83,14 @@
 				name="com.multisysportal.testcases.ResetPassword_viaForgotPassword" />
 		</classes>
 	</test> <!-- Test -->
+	
+	
+	<test name="Base">
+		<classes>
+			<class
+				name="com.multisysportal.testcases.Base" />
+		</classes>
+	</test> <!-- Test -->
+	
 
 </suite> <!-- Suite -->

@@ -30,6 +30,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import com.multisysportal.utilities.ExcelApiTest;
 import com.multisysportal.utilities.ExcelReader;
 import com.multisysportal.utilities.ExtentManager;
 import com.multisysportal.utilities.TestUtil;
@@ -60,10 +61,9 @@ public class TestBase {
 	public XSSFRow row;
 	public XSSFCell cell;
 
-	public String path = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
+	public static String path = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
 			+ File.separator + "resources" + File.separator 
 			+ "excel" + File.separator + "testdata.xlsx";
-
 
 	static String getUserAppDirectory() {
 		String os = System.getProperty("os.name").toLowerCase();
