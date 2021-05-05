@@ -17,7 +17,7 @@ public class Login_BillingPortal extends TestBase {
 			throw new SkipException("Skipping the test " + "Login_BillingPortal" + " as the Run mode is NO");
 		}
 		
-		
+		Thread.sleep(2000);
 		log.debug("Sign In Page successsfully accessed!");
 		Reporter.log("Sign In Page successsfully accessed!");
 

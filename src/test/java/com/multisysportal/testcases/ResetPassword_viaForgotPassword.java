@@ -18,6 +18,7 @@ public class ResetPassword_viaForgotPassword extends TestBase{
 					"Skipping test " + "resetPassword_viaForgotPassword".toUpperCase() + " with runmode exception F");
 		}
 
+		Thread.sleep(2000);
 		log.debug("Forgot Password Page successsfully accessed!");
 		Reporter.log("Forgot Password Page successsfully accessed!");
 		

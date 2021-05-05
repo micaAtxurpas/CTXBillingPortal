@@ -20,11 +20,14 @@ public class View_Reports_Custom extends TestBase {
 					"Skipping test " + "view_Reports_Custom".toUpperCase() + " with runmode exception F");
 		}
 
+		Thread.sleep(2000);
 		log.debug("Reports Page successsfully accessed!");
 		Reporter.log("Reports Page successsfully accessed!");
 
 		TestActions action = new TestActions();
 		action.clickReports();
+		
+		Thread.sleep(2000);
 		CustomReports reports = action.clickReportsCustom();
 		reports.selectDate();
 	}

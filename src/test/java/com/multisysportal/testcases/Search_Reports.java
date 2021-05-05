@@ -18,13 +18,14 @@ public class Search_Reports extends TestBase {
 					"Skipping test " + "search_Reports".toUpperCase() + " with runmode exception F");
 		}
 
+		Thread.sleep(2000);
 		log.debug("Search Page successsfully accessed!");
 		Reporter.log("Search Page successsfully accessed!");
 
 		TestActions enterReport = new TestActions();
 		enterReport.enterSearchReport();
-		Thread.sleep(3000);
 		
+		Thread.sleep(2000);
 		TestActions clickReport = new TestActions();
 		clickReport.clickSearchReport();
 	}

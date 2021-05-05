@@ -20,11 +20,14 @@ public class View_Reports_Monthly extends TestBase {
 					"Skipping test " + "view_Reports_Monthly".toUpperCase() + " with runmode exception F");
 		}
 
+		Thread.sleep(2000);
 		log.debug("Reports Page successsfully accessed!");
 		Reporter.log("Reports Page successsfully accessed!");
 
 		TestActions action = new TestActions();
 		action.clickReports();
+		
+		Thread.sleep(2000);
 		MonthlyReports reports = action.clickReportsMonthly();
 		reports.selectDate();
 	

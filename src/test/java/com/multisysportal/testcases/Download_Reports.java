@@ -1,5 +1,6 @@
 package com.multisysportal.testcases;
 
+import org.openqa.selenium.Alert;
 import org.testng.Reporter;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
@@ -17,6 +18,7 @@ public class Download_Reports extends TestBase {
 			throw new SkipException("Skipping test " + "download_Reports".toUpperCase() + " with runmode exception F");
 		}
 
+		Thread.sleep(2000);
 		log.debug("Download Page successsfully accessed!");
 		Reporter.log("Download Page successsfully accessed!");
 
@@ -26,5 +28,9 @@ public class Download_Reports extends TestBase {
 		Thread.sleep(2000);
 		TestActions download_FileReports = new TestActions();
 		download_FileReports.clickDownloadFileReports();
+		
+//		Thread.sleep(2000);
+//		Alert alert = driver.switchTo().alert();
+//		alert.dismiss();
 	}
 }

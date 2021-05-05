@@ -19,12 +19,15 @@ public class View_Reports_Yearly extends TestBase {
 			throw new SkipException(
 					"Skipping test " + "view_Reports_Yearly".toUpperCase() + " with runmode exception F");
 		}
-
+		
+		Thread.sleep(2000);
 		log.debug("Reports Page successsfully accessed!");
 		Reporter.log("Reports Page successsfully accessed!");
 
 		TestActions action = new TestActions();
 		action.clickReports();
+		
+		Thread.sleep(2000);
 		YearlyReports reports = action.clickReportsYearly();
 		reports.selectDate(); 
 	}

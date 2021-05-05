@@ -18,6 +18,7 @@ public class View_Dashboard extends TestBase {
 			throw new SkipException("Skipping test " + "view_Dashboard".toUpperCase() + " with runmode exception F");
 		}
 
+		Thread.sleep(2000);
 		log.debug("Dashboard Page successsfully accessed!");
 		Reporter.log("Dashboard Page successsfully accessed!");
 

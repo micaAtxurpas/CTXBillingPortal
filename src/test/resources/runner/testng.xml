@@ -58,15 +58,15 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<test name="Download_Reports">
-		<classes>
-			<class name="com.multisysportal.testcases.Download_Reports" />
-		</classes>
-	</test> <!-- Test -->
-
 	<test name="View_Map">
 		<classes>
 			<class name="com.multisysportal.testcases.View_Map" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Download_Reports">
+		<classes>
+			<class name="com.multisysportal.testcases.Download_Reports" />
 		</classes>
 	</test> <!-- Test -->
 
@@ -88,20 +88,18 @@
 				name="com.multisysportal.testcases.ResetPassword_viaForgotPassword" />
 		</classes>
 	</test> <!-- Test -->
-	
-	
+
 	<test name="Base">
 		<classes>
-			<class
-				name="com.multisysportal.testcases.Base" />
+			<class name="com.multisysportal.testcases.Base" />
 		</classes>
 	</test> <!-- Test -->
-	
 
-<!-- 	<test name="Test_Roughs"> -->
-<!-- 		<classes> -->
-<!-- 			<class name="com.multisysportal.testcases.Test_Roughs" /> -->
-<!-- 		</classes> -->
-<!-- 	</test> Test -->
+
+	<!-- <test name="Test_Roughs"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.multisysportal.testcases.Test_Roughs" /> -->
+	<!-- </classes> -->
+	<!-- </test> Test -->
 
 </suite> <!-- Suite -->

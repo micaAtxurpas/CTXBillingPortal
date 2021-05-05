@@ -20,11 +20,14 @@ public class View_Reports_Daily extends TestBase {
 					"Skipping test " + "view_Reports_Daily".toUpperCase() + " with runmode exception F");
 		}
 
+		Thread.sleep(2000);
 		log.debug("Reports Page successsfully accessed!");
 		Reporter.log("Reports Page successsfully accessed!");
 
 		TestActions action = new TestActions();
 		action.clickReports();
+		
+		Thread.sleep(2000);
 		DailyReports reports = action.clickReportsDaily();
 		reports.selectDate();
 	

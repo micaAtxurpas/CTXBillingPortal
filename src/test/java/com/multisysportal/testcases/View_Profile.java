@@ -18,13 +18,14 @@ public class View_Profile extends TestBase {
 			throw new SkipException("Skipping test " + "view_Profile".toUpperCase() + " with runmode exception F");
 		}
 
+		Thread.sleep(2000);
 		log.debug("Profile Page successsfully accessed!");
 		Reporter.log("Profile Page successsfully accessed!");
 		
 		TestActions logout_Username = new TestActions();
 		logout_Username.clickUsername();
-		Thread.sleep(2000);
 		
+		Thread.sleep(2000);
 		TestActions profile_Username = new TestActions();
 		profile_Username.clickProfileOption();
 		

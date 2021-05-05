@@ -10,13 +10,14 @@ import com.multisysportal.utilities.TestUtil;
 
 public class View_Map extends TestBase {
 	@Test
-	public void view_Map() {
+	public void view_Map() throws InterruptedException {
 
 		// for excel run mode test suites
 		if (!TestUtil.isTestRunnable("view_Map", excel)) {
 			throw new SkipException("Skipping test " + "view_Map".toUpperCase() + " with runmode exception F");
 		}
 
+		Thread.sleep(2000);
 		log.debug("Map Page successsfully accessed!");
 		Reporter.log("Map Page successsfully accessed!");
 
