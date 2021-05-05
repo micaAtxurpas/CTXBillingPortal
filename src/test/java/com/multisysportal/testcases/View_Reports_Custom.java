@@ -25,6 +25,7 @@ public class View_Reports_Custom extends TestBase {
 		Reporter.log("Reports Page successsfully accessed!");
 
 		TestActions action = new TestActions();
+		action.clickReports();
 		CustomReports reports = action.clickReportsCustom();
 		reports.selectDate();
 	}

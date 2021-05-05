@@ -25,7 +25,8 @@ public class View_Reports_Yearly extends TestBase {
 		Reporter.log("Reports Page successsfully accessed!");
 
 		TestActions action = new TestActions();
+		action.clickReports();
 		YearlyReports reports = action.clickReportsYearly();
-		reports.selectDate();
+		reports.selectDate(); 
 	}
 }

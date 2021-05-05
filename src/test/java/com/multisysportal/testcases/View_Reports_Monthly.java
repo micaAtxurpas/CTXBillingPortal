@@ -25,6 +25,7 @@ public class View_Reports_Monthly extends TestBase {
 		Reporter.log("Reports Page successsfully accessed!");
 
 		TestActions action = new TestActions();
+		action.clickReports();
 		MonthlyReports reports = action.clickReportsMonthly();
 		
 		reports.selectDate();
