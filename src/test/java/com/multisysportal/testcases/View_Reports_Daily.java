@@ -26,13 +26,8 @@ public class View_Reports_Daily extends TestBase {
 		TestActions action = new TestActions();
 		action.clickReports();
 		DailyReports reports = action.clickReportsDaily();
-		
 		reports.selectDate();
 	
 	}
-	
-	
-	
-	
 
 }

@@ -30,7 +30,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-import com.multisysportal.utilities.ExcelApiTest;
 import com.multisysportal.utilities.ExcelReader;
 import com.multisysportal.utilities.ExtentManager;
 import com.multisysportal.utilities.TestUtil;
@@ -79,6 +78,7 @@ public class TestBase {
 			return System.getProperty("user.dir") + File.separator + "src" + File.separator + "test" + "resources";
 	}
 
+	@SuppressWarnings("deprecation")
 	public TestBase() {
 		System.out.println("run");
 		System.setProperty("userApp.root", getUserAppDirectory());

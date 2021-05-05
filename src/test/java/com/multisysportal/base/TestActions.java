@@ -99,6 +99,11 @@ public class TestActions extends TestBase {
 	public void clickSearchReport() {
 		click("btnSearchReport_XPATH");
 	}
+	
+	// Export_Daily_Reports
+	public void clickExportReportDaily() {
+		click("btnExportReportsDaily_XPATH");
+	}
 
 	// Download_Reports
 	public void clickDownloadReports() {
@@ -114,11 +119,17 @@ public class TestActions extends TestBase {
 		click("menuMap_XPATH");
 	}
 
-	// Logout_LogoutOption
+	// View_Profile & // Logout_LogoutOption
 	public void clickUsername() {
 		click("btnUsername_XPATH");
 	}
+	
+	// View_Profile
+	public void clickProfileOption() {
+		click("ddProfileOption_XPATH");
+	}
 
+	// Logout_LogoutOption
 	public void clickLogoutOption() {
 		click("ddLogoutOption_XPATH");
 	}
@@ -126,6 +137,10 @@ public class TestActions extends TestBase {
 	// ResetPassword_viaForgotPassword
 	public void clickForgotPassword() {
 		click("forgotpassword_XPATH");
+	}
+	
+	public void selectRepDate() {
+		click("dpRepDailyDate_CSS");
 	}
 
 }

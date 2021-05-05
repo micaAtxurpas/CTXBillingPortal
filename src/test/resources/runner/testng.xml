@@ -27,13 +27,12 @@
 			<class name="com.multisysportal.testcases.View_Reports_Daily" />
 		</classes>
 	</test> <!-- Test -->
-	
-		<test name="Export_Daily_Report">
+
+	<test name="Export_Daily_Reports">
 		<classes>
-			<class name="com.multisysportal.testcases.Export_Daily_Report" />
+			<class name="com.multisysportal.testcases.Export_Daily_Reports" />
 		</classes>
 	</test> <!-- Test -->
-	
 
 	<test name="View_Reports_Monthly">
 		<classes>
@@ -71,6 +70,12 @@
 		</classes>
 	</test> <!-- Test -->
 
+	<test name="View_Profile">
+		<classes>
+			<class name="com.multisysportal.testcases.View_Profile" />
+		</classes>
+	</test> <!-- Test -->
+
 	<test name="Logout_LogoutOption">
 		<classes>
 			<class name="com.multisysportal.testcases.Logout_LogoutOption" />
@@ -92,5 +97,11 @@
 		</classes>
 	</test> <!-- Test -->
 	
+
+<!-- 	<test name="Test_Roughs"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.multisysportal.testcases.Test_Roughs" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> Test -->
 
 </suite> <!-- Suite -->
