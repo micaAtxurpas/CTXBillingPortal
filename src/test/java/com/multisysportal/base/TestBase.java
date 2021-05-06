@@ -137,9 +137,11 @@ public class TestBase {
 
 			} else if (config.getProperty("browser").equals("chrome")) {
 
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
-						+ File.separator + "src" + File.separator + "test" + File.separator + "resources" + File.separator + "executables" + File.separator + "chromedriver.exe");
+//				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
+//						+ File.separator + "src" + File.separator + "test" + File.separator + "resources" + File.separator + "executables" + File.separator + "chromedriver.exe");
 
+				WebDriverManager.chromedriver().setup();
+				
 				Map<String, Object> prefs = new HashMap<String, Object>();
 				prefs.put("profile.default_content_setting_values.notifications", 2);
 				prefs.put("credentials_enable_service", false);

@@ -14,13 +14,13 @@
         <protocol>https</protocol>
         
         <!-- title of the document -->
-        <documentTitle>Demo Netflix Reports</documentTitle>
+        <documentTitle>CTX Billing Portal</documentTitle>
         
         <!-- report name - displayed at top-nav -->
         <reportName>Automation Report for</reportName>
         
         <!-- report headline - displayed at top-nav, after reportHeadline -->
-        <reportHeadline>Demo Netflix Framework</reportHeadline>
+        <reportHeadline>CTX Billing Portal</reportHeadline>
         
         <!-- global date format override -->
         <!-- defaults to yyyy-MM-dd -->
