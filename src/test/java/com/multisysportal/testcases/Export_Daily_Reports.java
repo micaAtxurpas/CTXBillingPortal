@@ -34,7 +34,7 @@ public class Export_Daily_Reports extends TestBase{
 		
 		Thread.sleep(2000);
 		Alert alert = driver.switchTo().alert();
-		alert.dismiss();
+		alert.accept();
 	}
 
 }

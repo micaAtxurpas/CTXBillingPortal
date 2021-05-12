@@ -4,13 +4,13 @@ public class TestConfig{
 
 	
 	public static String server="smtp.gmail.com";
-	public static String from = "qa.daniella@gmail.com";
+	public static String from = "eliza.deguzman@xurpas.com";
 	public static String password = "XTQDBFRB:";
-	public static String[] to ={"daniellaclmbrs@gmail.com","daniellaclmbrs@outlook.com"};
-	public static String subject = "CTXPay Project Report";
+	public static String[] to ={"eliza.deguzman@xurpas.com","medeguzman09@yahoo.com"};
+	public static String subject = "CTX Billing Portal Project Report";
 	
-	public static String messageBody ="TestMessage";
-	public static String attachmentPath="C:\\Users\\Daniella\\Pictures\\05.jpg";
+	public static String messageBody ="Here are the log reports";
+	public static String attachmentPath="/Users/micadeguzman/Documents/bg.jpeg";
 	public static String attachmentName="05.jpg";
 	
 	
