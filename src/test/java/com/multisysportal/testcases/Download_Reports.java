@@ -28,10 +28,15 @@ public class Download_Reports extends TestBase {
 		Thread.sleep(2000);
 		TestActions download_FileReports = new TestActions();
 		download_FileReports.clickDownloadFileReports();
-		
+
 		// For FF only
-		Thread.sleep(2000);
-		Alert alert = driver.switchTo().alert();
-		alert.dismiss();
+		if (browser == "firefox") {
+			Thread.sleep(2000);
+			Alert alert = driver.switchTo().alert();
+			alert.dismiss();
+		} else {
+			//DO nothing
+		}
+
 	}
 }
