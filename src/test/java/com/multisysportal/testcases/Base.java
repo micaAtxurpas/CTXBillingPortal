@@ -8,7 +8,6 @@ import com.multisysportal.utilities.TestUtil;
 
 public class Base extends TestBase{
 	
-	
 	@AfterSuite
 	public void tearDown() throws InterruptedException{
 		if (!TestUtil.isTestRunnable("Base", excel)) {
@@ -16,12 +15,8 @@ public class Base extends TestBase{
 					"Skipping test " + "Base".toUpperCase() + " with runmode exception F");
 		}
 		
-		
 		TestBase.quit();
 		
 	}
-	
-	//Just to test Jenkins job schedule run
-	
 
 }

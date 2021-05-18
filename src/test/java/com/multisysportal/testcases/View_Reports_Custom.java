@@ -6,10 +6,11 @@ import org.testng.annotations.Test;
 
 import com.multisysportal.base.TestActions;
 import com.multisysportal.base.TestBase;
-import com.multisysportal.reports.CustomReports;
 import com.multisysportal.utilities.TestUtil;
 
 public class View_Reports_Custom extends TestBase {
+
+	public static String viewReports;
 
 	@Test
 	public void view_Reports_Custom() throws Throwable {
@@ -26,9 +27,15 @@ public class View_Reports_Custom extends TestBase {
 
 		TestActions action = new TestActions();
 		action.clickReports();
-		
+		viewReports = "T";
+
 		Thread.sleep(2000);
-		CustomReports reports = action.clickReportsCustom();
-		reports.selectDate();
+		TestActions custom = new TestActions();
+		custom.clickReportsCustom();
+
+		// Disregard com.multisysportal.reports
+//		Thread.sleep(2000);
+//		CustomReports reports = action.clickReportsCustom();
+//		reports.selectDate();
 	}
 }

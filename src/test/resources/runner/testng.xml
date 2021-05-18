@@ -28,6 +28,12 @@
 		</classes>
 	</test> <!-- Test -->
 
+	<test name="Filter_Daily_Reports">
+		<classes>
+			<class name="com.multisysportal.testcases.Filter_Daily_Reports" />
+		</classes>
+	</test> <!-- Test -->
+
 	<test name="Export_Daily_Reports">
 		<classes>
 			<class name="com.multisysportal.testcases.Export_Daily_Reports" />
@@ -40,15 +46,36 @@
 		</classes>
 	</test> <!-- Test -->
 
+	<test name="Filter_Monthly_Reports">
+		<classes>
+			<class
+				name="com.multisysportal.testcases.Filter_Monthly_Reports" />
+		</classes>
+	</test> <!-- Test -->
+
 	<test name="View_Reports_Yearly">
 		<classes>
 			<class name="com.multisysportal.testcases.View_Reports_Yearly" />
 		</classes>
 	</test> <!-- Test -->
 
+	<test name="Filter_Yearly_Reports">
+		<classes>
+			<class
+				name="com.multisysportal.testcases.Filter_Yearly_Reports" />
+		</classes>
+	</test> <!-- Test -->
+
 	<test name="View_Reports_Custom">
 		<classes>
 			<class name="com.multisysportal.testcases.View_Reports_Custom" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Filter_Custom_Reports">
+		<classes>
+			<class
+				name="com.multisysportal.testcases.Filter_Custom_Reports" />
 		</classes>
 	</test> <!-- Test -->
 

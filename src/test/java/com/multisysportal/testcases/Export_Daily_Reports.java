@@ -1,5 +1,8 @@
 package com.multisysportal.testcases;
 
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
 import org.openqa.selenium.Alert;
 import org.testng.Reporter;
 import org.testng.SkipException;
@@ -7,7 +10,7 @@ import org.testng.annotations.Test;
 
 import com.multisysportal.base.TestActions;
 import com.multisysportal.base.TestBase;
-import com.multisysportal.reports.DailyReports;
+import com.multisysportal.utilities.ExcelApiTest;
 import com.multisysportal.utilities.TestUtil;
 
 public class Export_Daily_Reports extends TestBase{
@@ -28,9 +31,22 @@ public class Export_Daily_Reports extends TestBase{
 		exportReportsDaily.clickReports();
 		
 		Thread.sleep(2000);
-		DailyReports reports = new DailyReports();
-		reports.selectDate();
-		reports.export();
+		TestActions daily = new TestActions();
+		daily.clickReportsDaily();
+		
+		String sheetName = "Reports";
+		
+		Thread.sleep(2000);
+		ExcelApiTest eat = new ExcelApiTest(path);
+		type("date_XPATH", eat.getCellData(sheetName, "Daily", 2));
+		
+		Thread.sleep(2000);
+		click("exportbtn_XPATH");
+
+		Thread.sleep(2000);
+		Robot robot = new Robot();
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
 		
 		Thread.sleep(2000);
 		Alert alert = driver.switchTo().alert();

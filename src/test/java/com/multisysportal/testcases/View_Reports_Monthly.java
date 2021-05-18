@@ -6,10 +6,11 @@ import org.testng.annotations.Test;
 
 import com.multisysportal.base.TestActions;
 import com.multisysportal.base.TestBase;
-import com.multisysportal.reports.MonthlyReports;
 import com.multisysportal.utilities.TestUtil;
 
 public class View_Reports_Monthly extends TestBase {
+	
+	public static String viewReports;
 
 	@Test
 	public void view_Reports_Monthly() throws Throwable {
@@ -26,10 +27,16 @@ public class View_Reports_Monthly extends TestBase {
 
 		TestActions action = new TestActions();
 		action.clickReports();
+		viewReports = "T";
 		
 		Thread.sleep(2000);
-		MonthlyReports reports = action.clickReportsMonthly();
-		reports.selectDate();
+		TestActions monthly = new TestActions();
+		monthly.clickReportsMonthly();
+
+		// Disregard com.multisysportal.reports
+//		Thread.sleep(2000);
+//		MonthlyReports reports = action.clickReportsMonthly();
+//		reports.selectDate();
 	
 	}
 

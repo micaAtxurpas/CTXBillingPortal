@@ -6,10 +6,11 @@ import org.testng.annotations.Test;
 
 import com.multisysportal.base.TestActions;
 import com.multisysportal.base.TestBase;
-import com.multisysportal.reports.DailyReports;
 import com.multisysportal.utilities.TestUtil;
 
 public class View_Reports_Daily extends TestBase {
+
+	public static String viewReports;
 
 	@Test
 	public void view_Reports_Daily() throws Throwable {
@@ -26,11 +27,17 @@ public class View_Reports_Daily extends TestBase {
 
 		TestActions action = new TestActions();
 		action.clickReports();
-		
+		viewReports = "T";
+
 		Thread.sleep(2000);
-		DailyReports reports = action.clickReportsDaily();
-		reports.selectDate();
-	
+		TestActions daily = new TestActions();
+		daily.clickReportsDaily();
+
+		// Disregard com.multisysportal.reports
+//		Thread.sleep(2000);
+//		DailyReports reports = action.clickReportsDaily();
+//		reports.selectDate();
+
 	}
 
 }
