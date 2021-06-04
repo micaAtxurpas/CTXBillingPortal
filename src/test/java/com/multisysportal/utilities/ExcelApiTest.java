@@ -13,6 +13,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import com.multisysportal.base.TestBase;
 
 
+@SuppressWarnings("deprecation")
 public class ExcelApiTest extends TestBase{
 	
     public ExcelApiTest(String xlFilePath) throws Exception
@@ -21,8 +22,8 @@ public class ExcelApiTest extends TestBase{
         workbook = new XSSFWorkbook(fis);
         fis.close();
     }
- 
-    public String getCellData(String sheetName, String colName, int rowNum)
+
+	public String getCellData(String sheetName, String colName, int rowNum)
     {
         try
         {

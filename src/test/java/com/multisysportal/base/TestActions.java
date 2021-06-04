@@ -37,7 +37,8 @@ public class TestActions extends TestBase {
 		click("menuDashboardYYYY3_XPATH");
 		click("menuDashboardYYYY4_XPATH");
 		click("menuDashboardYYYY5_XPATH");
-		click("menuDashboardYYYY6_XPATH");
+		// June 4, 2021 - Only 5 years exists
+		//click("menuDashboardYYYY6_XPATH"); 
 	}
 
 	public void clickDashboardVisYYYY() {
@@ -46,7 +47,8 @@ public class TestActions extends TestBase {
 		click("menuDashboardYYYY3_XPATH");
 		click("menuDashboardYYYY4_XPATH");
 		click("menuDashboardYYYY5_XPATH");
-		click("menuDashboardYYYY6_XPATH");
+		// June 4, 2021 - Only 5 years exists
+		//click("menuDashboardYYYY6_XPATH");
 	}
 
 	// View_Reports
@@ -102,6 +104,7 @@ public class TestActions extends TestBase {
 	}
 
 	// View_Map
+	// June 4, 2021 - View Map no longer exists; Tagged Run mode = N
 	public void clickMap() {
 		click("menuMap_XPATH");
 	}
@@ -122,6 +125,7 @@ public class TestActions extends TestBase {
 	}
 
 	// ResetPassword_viaForgotPassword
+	// June 4, 2021 - Forgot Password no longer exists; Tagged Run mode = N
 	public void clickForgotPassword() {
 		click("forgotpassword_XPATH");
 	}
